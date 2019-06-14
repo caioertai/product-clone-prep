@@ -16,8 +16,9 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+gem 'faker', require: false
+
 group :development do
-  gem 'faker', require: false
   gem 'web-console', '>= 3.3.0'
 end
 
