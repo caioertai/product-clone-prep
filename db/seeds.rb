@@ -11,8 +11,8 @@ puts "1. #{user.email}"
 
 user2 = User.create!(
   email: "user2@user2.com",
-  first_name: "John",
-  last_name: "Lennon",
+  first_name: "Ringo",
+  last_name: "Starr",
   password: 123456
 )
 puts "2. #{user2.email}"
